@@ -242,8 +242,6 @@ public class ChequeExtenso {
 		
 		valorExtenso += String.format("%.0f/100", valor*100);
 		
-		System.out.println(valor);
-		
 		System.out.println(valorExtenso);
 		
 		
