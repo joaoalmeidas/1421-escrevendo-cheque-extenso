@@ -6,7 +6,7 @@ public class ChequeExtenso {
 	public static void main(String[] args) {
 		
 		
-		double valor = 0;
+		double valor = 0.0;
 		String valorExtenso = "";
 		NumberFormat nf = NumberFormat.getCurrencyInstance();
 		
@@ -60,9 +60,11 @@ public class ChequeExtenso {
 				
 			}
 			
-			valorExtenso = " hundred";
+			valorExtenso += " hundred";
 			
 		}
+		
+		System.out.println(valorExtenso);
 		
 		
 	}
