@@ -187,6 +187,50 @@ public class ChequeExtenso {
 			
 		}
 		
+		if((int) valor  != 0) {
+			
+			if((int) valor == 9) {
+				
+				valorExtenso += "NINE";
+				
+			}else if((int) valor == 8) {
+				
+				valorExtenso += "EIGHT";
+				
+			}else if((int) valor == 7) {
+				
+				valorExtenso += "SEVEN";
+				
+			}else if((int) valor == 6) {
+				
+				valorExtenso += "SIX";
+				
+			}else if((int) valor == 5) {
+				
+				valorExtenso += "FIVE";
+				
+			}else if((int) valor == 4) {
+				
+				valorExtenso += "FOUR";
+				
+			}else if((int) valor == 3) {
+				
+				valorExtenso += "THREE";
+				
+			}else if((int) valor == 2) {
+				
+				valorExtenso += "TWO";
+				
+			}else if((int) valor == 1) {
+				
+				valorExtenso += "ONE";
+				
+			}
+			
+			valorExtenso += " and ";
+			
+		}
+		
 		System.out.println(valor);
 		
 		System.out.println(valorExtenso);
